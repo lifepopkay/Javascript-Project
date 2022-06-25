@@ -1,17 +1,19 @@
 const firstName = 'Kayode'
-const lastName = ' Popoola'
+const lastName = 'Popoola'
 
-const FullName = firstName + lastName
+const FullName = "My name is" + " " + firstName + " " + lastName
 
-console.log(FullName)
+
+
+alert(FullName)
 
 let value = 160
-let heightUnit = ' cm'
+let heightUnit = 'cm'
 
-let height = value + heightUnit
-console.log(height)
+let height = "My height is" + " " + value + " " + heightUnit
+alert(height)
 
-let Country = 'Nigeria'
-console.log(Country)
+const Country = 'Nigeria'
+alert("I'm from" +" " + Country)
 
 
